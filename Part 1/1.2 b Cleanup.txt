@@ -1,0 +1,6 @@
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+docker101tutorial                  latest              2a6d0b421105        47 minutes ago      26.8MB
+tonisanchezdev/docker101tutorial   latest              2a6d0b421105        47 minutes ago      26.8MB
+python                             alpine              bcf3965d8456        3 days ago          80.3MB
+node                               12-alpine           18f4bc975732        5 days ago          89.3MB
+hello-world                        latest              bf756fb1ae65        7 months ago        13.3kB
