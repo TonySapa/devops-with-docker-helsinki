@@ -1,0 +1,22 @@
+C:\Users\USER-PC>docker exec -it 5640fc0860b1 bash
+root@5640fc0860b1:/usr/app# ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.4 620164 29444 ?        Ssl  16:52   0:00 node index
+root        17  0.2  0.1  18188  3184 pts/0    Ss   16:54   0:00 bash
+root        23  0.0  0.1  36636  2924 pts/0    R+   16:54   0:00 ps aux
+root@5640fc0860b1:/usr/app# tail -f ./logs.txt
+Tue, 04 Aug 2020 16:54:51 GMT
+Tue, 04 Aug 2020 16:54:54 GMT
+Tue, 04 Aug 2020 16:54:57 GMT
+Tue, 04 Aug 2020 16:55:00 GMT
+Secret message is:
+"Docker is easy"
+Tue, 04 Aug 2020 16:55:06 GMT
+Tue, 04 Aug 2020 16:55:09 GMT
+Tue, 04 Aug 2020 16:55:12 GMT
+Tue, 04 Aug 2020 16:55:15 GMT
+Secret message is:
+"Docker is easy"
+Tue, 04 Aug 2020 16:55:21 GMT
+^C
+root@5640fc0860b1:/usr/app#
